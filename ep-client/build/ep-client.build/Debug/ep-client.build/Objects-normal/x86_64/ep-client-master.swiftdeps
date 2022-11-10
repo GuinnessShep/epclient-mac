@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "fad20b0626b6a0398cdd55c70a230f2d"
+build_time: [1668061263, 966485000]
+inputs:
+  "/Users/amit/Desktop/VISHAL/MCP_Code/epclient-mac/ep-client/ep-client/VPNConfigurationService.swift": [1667931584, 959097438]
+  "/Users/amit/Desktop/VISHAL/MCP_Code/epclient-mac/ep-client/ep-client/main.swift": [1667890416, 522516251]
+  "/Users/amit/Desktop/VISHAL/MCP_Code/epclient-mac/ep-client/ep-client/Keychain.swift": [1667890453, 31411027]

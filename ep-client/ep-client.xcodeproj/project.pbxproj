@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2898EAE0291A342600C82B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2898EADF291A342600C82B65 /* Assets.xcassets */; };
+		2898EAE3291A342600C82B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2898EAE2291A342600C82B65 /* Preview Assets.xcassets */; };
+		2898EAED291A344800C82B65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898EAEC291A344800C82B65 /* main.swift */; };
+		2898EAF0291A346F00C82B65 /* VPNConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898EAEF291A346F00C82B65 /* VPNConfigurationService.swift */; };
+		2898EAF3291A348400C82B65 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898EAF2291A348400C82B65 /* Keychain.swift */; };
+		2898EAF9291A34AF00C82B65 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2898EAF8291A34AF00C82B65 /* NetworkExtension.framework */; };
+		2898EAFF291A356B00C82B65 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2898EAF8291A34AF00C82B65 /* NetworkExtension.framework */; };
+		2898EB02291A356B00C82B65 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898EB01291A356B00C82B65 /* PacketTunnelProvider.swift */; };
+		2898EB04291A356B00C82B65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898EB03291A356B00C82B65 /* main.swift */; };
+		2898EB09291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 2898EAFE291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2898EB07291A356B00C82B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2898EAD0291A342400C82B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2898EAFD291A356B00C82B65;
+			remoteInfo = "vpn-tunnel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2898EB0D291A356B00C82B65 /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				2898EB09291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2898EAD8291A342400C82B65 /* ep-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ep-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2898EADB291A342400C82B65 /* ep_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ep_clientApp.swift; sourceTree = "<group>"; };
+		2898EADD291A342500C82B65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2898EADF291A342600C82B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2898EAE2291A342600C82B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2898EAE4291A342600C82B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2898EAE5291A342600C82B65 /* ep_client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ep_client.entitlements; sourceTree = "<group>"; };
+		2898EAEC291A344800C82B65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2898EAEF291A346F00C82B65 /* VPNConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConfigurationService.swift; sourceTree = "<group>"; };
+		2898EAF2291A348400C82B65 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		2898EAF8291A34AF00C82B65 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		2898EAFE291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.skyhighsecurity.epclient.networkextension.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
+		2898EB01291A356B00C82B65 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		2898EB03291A356B00C82B65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2898EB05291A356B00C82B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2898EB06291A356B00C82B65 /* vpn_tunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vpn_tunnel.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2898EAD5291A342400C82B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898EAF9291A34AF00C82B65 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2898EAFB291A356B00C82B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898EAFF291A356B00C82B65 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2898EACF291A342400C82B65 = {
+			isa = PBXGroup;
+			children = (
+				2898EADA291A342400C82B65 /* ep-client */,
+				2898EB00291A356B00C82B65 /* vpn-tunnel */,
+				2898EAD9291A342400C82B65 /* Products */,
+				2898EAF7291A34AF00C82B65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2898EAD9291A342400C82B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2898EAD8291A342400C82B65 /* ep-client.app */,
+				2898EAFE291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2898EADA291A342400C82B65 /* ep-client */ = {
+			isa = PBXGroup;
+			children = (
+				2898EADB291A342400C82B65 /* ep_clientApp.swift */,
+				2898EADD291A342500C82B65 /* ContentView.swift */,
+				2898EAEC291A344800C82B65 /* main.swift */,
+				2898EAEF291A346F00C82B65 /* VPNConfigurationService.swift */,
+				2898EAF2291A348400C82B65 /* Keychain.swift */,
+				2898EADF291A342600C82B65 /* Assets.xcassets */,
+				2898EAE4291A342600C82B65 /* Info.plist */,
+				2898EAE5291A342600C82B65 /* ep_client.entitlements */,
+				2898EAE1291A342600C82B65 /* Preview Content */,
+			);
+			path = "ep-client";
+			sourceTree = "<group>";
+		};
+		2898EAE1291A342600C82B65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2898EAE2291A342600C82B65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2898EAF7291A34AF00C82B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2898EAF8291A34AF00C82B65 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2898EB00291A356B00C82B65 /* vpn-tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				2898EB01291A356B00C82B65 /* PacketTunnelProvider.swift */,
+				2898EB03291A356B00C82B65 /* main.swift */,
+				2898EB05291A356B00C82B65 /* Info.plist */,
+				2898EB06291A356B00C82B65 /* vpn_tunnel.entitlements */,
+			);
+			path = "vpn-tunnel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2898EAD7291A342400C82B65 /* ep-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2898EAE8291A342600C82B65 /* Build configuration list for PBXNativeTarget "ep-client" */;
+			buildPhases = (
+				2898EAD4291A342400C82B65 /* Sources */,
+				2898EAD5291A342400C82B65 /* Frameworks */,
+				2898EAD6291A342400C82B65 /* Resources */,
+				2898EB0D291A356B00C82B65 /* Embed System Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2898EB08291A356B00C82B65 /* PBXTargetDependency */,
+			);
+			name = "ep-client";
+			productName = "ep-client";
+			productReference = 2898EAD8291A342400C82B65 /* ep-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2898EAFD291A356B00C82B65 /* vpn-tunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2898EB0A291A356B00C82B65 /* Build configuration list for PBXNativeTarget "vpn-tunnel" */;
+			buildPhases = (
+				2898EAFA291A356B00C82B65 /* Sources */,
+				2898EAFB291A356B00C82B65 /* Frameworks */,
+				2898EAFC291A356B00C82B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vpn-tunnel";
+			productName = "vpn-tunnel";
+			productReference = 2898EAFE291A356B00C82B65 /* com.skyhighsecurity.epclient.networkextension.systemextension */;
+			productType = "com.apple.product-type.system-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2898EAD0291A342400C82B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2898EAD7291A342400C82B65 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2898EAFD291A356B00C82B65 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2898EAD3291A342400C82B65 /* Build configuration list for PBXProject "ep-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2898EACF291A342400C82B65;
+			productRefGroup = 2898EAD9291A342400C82B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2898EAD7291A342400C82B65 /* ep-client */,
+				2898EAFD291A356B00C82B65 /* vpn-tunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2898EAD6291A342400C82B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898EAE3291A342600C82B65 /* Preview Assets.xcassets in Resources */,
+				2898EAE0291A342600C82B65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2898EAFC291A356B00C82B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2898EAD4291A342400C82B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898EAF0291A346F00C82B65 /* VPNConfigurationService.swift in Sources */,
+				2898EAED291A344800C82B65 /* main.swift in Sources */,
+				2898EAF3291A348400C82B65 /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2898EAFA291A356B00C82B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898EB04291A356B00C82B65 /* main.swift in Sources */,
+				2898EB02291A356B00C82B65 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2898EB08291A356B00C82B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2898EAFD291A356B00C82B65 /* vpn-tunnel */;
+			targetProxy = 2898EB07291A356B00C82B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2898EAE6291A342600C82B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2898EAE7291A342600C82B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2898EAE9291A342600C82B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ep-client/ep_client.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ep-client/Preview Content\"";
+				DEVELOPMENT_TEAM = W6824P2V89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ep-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyhighsecurity.epclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_test_epclient_app;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2898EAEA291A342600C82B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ep-client/ep_client.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ep-client/Preview Content\"";
+				DEVELOPMENT_TEAM = W6824P2V89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ep-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyhighsecurity.epclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_test_epclient_app;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2898EB0B291A356B00C82B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "vpn-tunnel/vpn_tunnel.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = W6824P2V89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "vpn-tunnel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyhighsecurity.epclient.networkextension;
+				PRODUCT_NAME = "$(inherited)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_test_epclient_netwok_extension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2898EB0C291A356B00C82B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "vpn-tunnel/vpn_tunnel.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = W6824P2V89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "vpn-tunnel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyhighsecurity.epclient.networkextension;
+				PRODUCT_NAME = "$(inherited)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_test_epclient_netwok_extension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2898EAD3291A342400C82B65 /* Build configuration list for PBXProject "ep-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2898EAE6291A342600C82B65 /* Debug */,
+				2898EAE7291A342600C82B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2898EAE8291A342600C82B65 /* Build configuration list for PBXNativeTarget "ep-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2898EAE9291A342600C82B65 /* Debug */,
+				2898EAEA291A342600C82B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2898EB0A291A356B00C82B65 /* Build configuration list for PBXNativeTarget "vpn-tunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2898EB0B291A356B00C82B65 /* Debug */,
+				2898EB0C291A356B00C82B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2898EAD0291A342400C82B65 /* Project object */;
+}

@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "mylog"
+- "service"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "<="
+- "CommandLine"
+- "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "OSLog"
+- "StringLiteralType"
+- "ViewController"
+- "dispatchMain"
+- "exit"
+- "mylog"
+- "os_log"
+- "print"
+- "service"
+- "sleep"
+depends-member:
+- ["Sa", "subscript"]
+- ["SK", ""]
+- ["SK", "isEqual"]
+- ["SK", "subscript"]
+- ["8CloudKit21CKRecordValueProtocolP", "isEqual"]
+- ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- ["s7CVarArgP", "async"]
+- ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "installSystemExtension"]
+- ["s7CVarArgP", "isEqual"]
+- ["s7CVarArgP", "loadManager"]
+- ["s7CVarArgP", "subscript"]
+- ["Sl", ""]
+- ["Sl", "isEqual"]
+- ["Sl", "subscript"]
+- ["s11CommandLineO", "argc"]
+- ["s11CommandLineO", "arguments"]
+- ["SL", ""]
+- ["SL", "isEqual"]
+- ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "installSystemExtension"]
+- ["s28CustomDebugStringConvertibleP", "isEqual"]
+- ["s28CustomDebugStringConvertibleP", "loadManager"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "isEqual"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "async"]
+- ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "installSystemExtension"]
+- ["s23CustomStringConvertibleP", "isEqual"]
+- ["s23CustomStringConvertibleP", "loadManager"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "isEqual"]
+- ["Se", "subscript"]
+- ["So18OS_dispatch_objectC", ""]
+- ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "global"]
+- ["SE", "isEqual"]
+- ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "async"]
+- ["SQ", "background"]
+- ["SQ", "default"]
+- ["SQ", "global"]
+- ["SQ", "init"]
+- ["SQ", "installSystemExtension"]
+- ["SQ", "isEqual"]
+- ["SQ", "loadManager"]
+- ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEqual"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "isEqual"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "isEqual"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "isEqual"]
+- ["SH", ""]
+- ["SH", "async"]
+- ["SH", "background"]
+- ["SH", "default"]
+- ["SH", "global"]
+- ["SH", "init"]
+- ["SH", "installSystemExtension"]
+- ["SH", "isEqual"]
+- ["SH", "loadManager"]
+- ["SH", "subscript"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "isEqual"]
+- ["s10MirrorPathP", "isEqual"]
+- ["SM", ""]
+- ["SM", "subscript"]
+- ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "installSystemExtension"]
+- ["So8NSCodingP", "isEqual"]
+- ["So8NSCodingP", "loadManager"]
+- ["So9NSCopyingP", "isEqual"]
+- ["So8NSEditorP", "init"]
+- ["So8NSEditorP", "installSystemExtension"]
+- ["So8NSEditorP", "loadManager"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "installSystemExtension"]
+- ["So26NSExtensionRequestHandlingP", "loadManager"]
+- ["So21NSItemProviderReadingP", "isEqual"]
+- ["So21NSItemProviderWritingP", "isEqual"]
+- ["So16NSMutableCopyingP", "isEqual"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "installSystemExtension"]
+- ["So8NSObjectC", "isEnabled"]
+- ["So8NSObjectC", "isEqual"]
+- ["So8NSObjectC", "isEqualToString"]
+- ["So8NSObjectC", "loadManager"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "installSystemExtension"]
+- ["So8NSObjectP", "isEnabled"]
+- ["So8NSObjectP", "isEqual"]
+- ["So8NSObjectP", "isEqualToString"]
+- ["So8NSObjectP", "loadManager"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- ["So19NSPasteboardReadingP", "isEqual"]
+- ["So19NSPasteboardWritingP", "isEqual"]
+- ["So11NSResponderC", ""]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "installSystemExtension"]
+- ["So11NSResponderC", "loadManager"]
+- ["So14NSSecureCodingP", "isEqual"]
+- ["So17NSSeguePerformingP", "init"]
+- ["So17NSSeguePerformingP", "installSystemExtension"]
+- ["So17NSSeguePerformingP", "loadManager"]
+- ["So30NSStandardKeyBindingRespondingP", "init"]
+- ["So30NSStandardKeyBindingRespondingP", "installSystemExtension"]
+- ["So30NSStandardKeyBindingRespondingP", "loadManager"]
+- ["So8NSStringC", "isEqual"]
+- ["So18NSTouchBarProviderP", "init"]
+- ["So18NSTouchBarProviderP", "installSystemExtension"]
+- ["So18NSTouchBarProviderP", "loadManager"]
+- ["So23NSUserActivityRestoringP", "init"]
+- ["So23NSUserActivityRestoringP", "installSystemExtension"]
+- ["So23NSUserActivityRestoringP", "loadManager"]
+- ["So33NSUserInterfaceItemIdentificationP", "init"]
+- ["So33NSUserInterfaceItemIdentificationP", "installSystemExtension"]
+- ["So33NSUserInterfaceItemIdentificationP", "loadManager"]
+- ["So16NSViewControllerC", ""]
+- ["So16NSViewControllerC", "init"]
+- ["So16NSViewControllerC", "installSystemExtension"]
+- ["So16NSViewControllerC", "loadManager"]
+- ["So9OS_os_logC", "init"]
+- ["So13os_log_type_ta", "default"]
+- ["So32OSSystemExtensionRequestDelegateP", "init"]
+- ["So32OSSystemExtensionRequestDelegateP", "installSystemExtension"]
+- ["So32OSSystemExtensionRequestDelegateP", "loadManager"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- ["Sk", ""]
+- ["Sk", "subscript"]
+- ["Sm", ""]
+- ["Sm", "isEqual"]
+- ["Sm", "subscript"]
+- ["SY", "default"]
+- ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "global"]
+- ["ST", ""]
+- ["ST", "isEqual"]
+- ["ST", "subscript"]
+- ["SS", "isEqual"]
+- ["Sy", "isEqual"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "isEqual"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "isEqual"]
+- ["9ep_client14ViewControllerC", ""]
+- ["9ep_client14ViewControllerC", "init"]
+- ["9ep_client14ViewControllerC", "installSystemExtension"]
+- ["9ep_client14ViewControllerC", "loadManager"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "isEqual"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEqual"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "isEqual"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEqual"]
+- ["s19_HasContiguousBytesP", "isEqual"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "isEqual"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "installSystemExtension"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loadManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "installSystemExtension"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadManager"]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "isEqual"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["So13CKRecordValueP", "isEqual"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- "s11CommandLineO"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSEditorP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So11NSResponderC"
+- "So14NSSecureCodingP"
+- "So17NSSeguePerformingP"
+- "So30NSStandardKeyBindingRespondingP"
+- "So8NSStringC"
+- "So18NSTouchBarProviderP"
+- "So23NSUserActivityRestoringP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So16NSViewControllerC"
+- "So9OS_os_logC"
+- "So13os_log_type_ta"
+- "So32OSSystemExtensionRequestDelegateP"
+- "So9OS_objectC"
+- "8Dispatch0A3QoSV0B6SClassO"
+- "Sk"
+- "Sm"
+- "SY"
+- "7Combine9SchedulerP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9ep_client14ViewControllerC"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "116e18d15649e87c4e57eb2ce02eead5"
